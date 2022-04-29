@@ -120,13 +120,13 @@ body {
 }
 .containerhome h1 {color:#fff;font-size:85px;font-weight:300;letter-spacing:10px;padding-top: 14px;}
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
     .containerhome h1 {
         font-size:50px;
     }
 }
 
-@media screen and (min-width: 450px) {
+@media screen and (max-width: 450px) {
     .containerhome h1 {
         font-size:35px;
     }
