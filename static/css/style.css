@@ -119,6 +119,20 @@ body {
 	text-align:center;
 }
 .containerhome h1 {color:#fff;font-size:85px;font-weight:300;letter-spacing:10px;padding-top: 14px;}
+
+@media screen and (min-width: 768px) {
+    .containerhome h1 {
+        font-size:50px;
+    }
+}
+
+@media screen and (min-width: 450px) {
+    .containerhome h1 {
+        font-size:35px;
+    }
+}
+
+
 .containerhome p {color:#fff;font-size:15px;font-weight:300;letter-spacing:1.5px;}
 .subscribenow {width:170px;height:42px;margin-left:auto;margin-right:auto;margin-top:30px;margin-bottom: 30px;}
 .subscribenow a {
