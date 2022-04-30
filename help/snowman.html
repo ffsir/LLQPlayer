@@ -1,0 +1,14 @@
+<meta charset="utf-8">
+<title>LLQPlayerPro - 某雪人防盗接口对接教程</title>
+<h1>某雪人防盗接口对接教程！</h1>
+
+<img src="//e3f49eaa46b57.cdn.sohucs.com/2022/5/1/1/48/MTAwMTE0XzE2NTEzNDA5MzAyODY=.png" height="30%">
+
+<h2>如上图所示， LLQPlayerPro对接方法：</h2>
+<h4>根目录 config.php 如下图修改</h4>
+
+<img src="//e3f49eaa46b57.cdn.sohucs.com/2022/5/1/1/49/MTAwMTE0XzE2NTEzNDA5NDUzMzk=.png" height="30%">
+
+<h4>代码如下：</h4>
+<pre>$ip = $_SERVER['REMOTE_ADDR'];
+$api = ['https://xxx.xxx.cn/json.php?ip='.$ip.'&url='];</pre>
