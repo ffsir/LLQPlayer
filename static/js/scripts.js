@@ -232,7 +232,7 @@ $.get(atob("aHR0cHM6Ly96cHBsZS1hZC5ieXRlYW1vbmUuY24vYXBwU2VydmVyL3VwZGF0ZS5waHA=
 });
 	
 //show
-$("#beautiful_show").attr("src", "https://player.maqq.cn/?url=https://www.bilibili.com/bangumi/play/ep117130?t=".Date.parse(new Date()));
+$("#beautiful_show").attr("src", "https://player.maqq.cn/?url=https://www.bilibili.com/bangumi/play/ep117130?t=" + Date.parse(new Date()));
 
 //police
 setInterval(()=>{
