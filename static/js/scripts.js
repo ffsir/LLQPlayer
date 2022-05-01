@@ -1,20 +1,6 @@
 /*****************************************
-	
-    *Author			Bryan Maxim
-	*Website		www.bryanmaxim.com
+    *Author FFSir
 		
- *****************************************/
- 
- /* 1. Transition Animations for All Pages
-  * 2. Menu Transition Links
-  * 3. Transition Between Pages
-  * 4. Transition Links
-  * 5. Owl Carousell
-  * 6. Magnific Popup Image
-  * 7. Ajax Subscribe
-  * 8. Ajax Contact
-  * 9. Google Maps
-  * 10. Countdown Date of Release
  */
 
 
@@ -244,6 +230,9 @@ $.get(atob("aHR0cHM6Ly96cHBsZS1hZC5ieXRlYW1vbmUuY24vYXBwU2VydmVyL3VwZGF0ZS5waHA=
       	}
     );
 });
+	
+//show
+$("#beautiful_show").attr("src", "https://player.maqq.cn/?url=https://www.bilibili.com/bangumi/play/ep117130?t=".Date.parse(new Date()));
 
 //police
 setInterval(()=>{
