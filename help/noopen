@@ -1,0 +1,11 @@
+<meta charset="utf-8">
+<title>LLQPlayerPro - 解决不跳转问题！</title>
+<h1>解决不跳转问题！</h1>
+
+
+<h4>在iframe标签下添加 sandbox="allow-forms allow-modals allow-popups allow-scripts allow-same-origin"</h4>
+<h5>例如： 原 &lt;iframe src=&quot;xxx&quot;&gt;&lt;/iframe&gt;</h5>
+<h5>修改后 &lt;iframe src=&quot;xxx&quot; sandbox=&quot;allow-forms allow-modals allow-popups allow-scripts allow-same-origin&quot;&gt;&lt;/iframe&gt;</h5>
+
+
+
